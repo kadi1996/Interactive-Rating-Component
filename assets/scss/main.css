@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #121417;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  margin: 20rem 35%;
+}
+
+main {
+  background: #252d37;
+  border-radius: 20px;
+  padding: 2rem 10%;
+}
+
+main img {
+  margin-bottom: 1.5rem;
+}
+
+main #sectionOne h1 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+main #sectionOne p {
+  color: #7c8798;
+  font-size: 12.5px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+main #sectionTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+main #sectionTwo input[type="radio"]:checked::after + label {
+  background-color: red;
+}
+
+main #sectionTwo label {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  border-radius: 800%;
+  margin: 0 5px;
+  text-align: center;
+  padding-top: 15px;
+  background: #959eac;
+}
+
+main #sectionThree {
+  color: white;
+  text-align: center;
+}
+
+main #sectionThree a {
+  background: #fb7413;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+  padding: 10px 40%;
+  border-radius: 20px;
+}
+
+main #sectionThree a:hover {
+  background: white;
+  color: #fb7413;
+}
+/*# sourceMappingURL=main.css.map */
