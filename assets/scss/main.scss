@@ -64,39 +64,41 @@ main {
         justify-content: space-between;
         margin-bottom: 2rem;
 
-        input[type="radio"]:checked::after+label {
-            background-color: red;
-        }
-
-        label {
-            display: inline-block;
-            width: 100px;
+        input {
             height: 50px;
-            border-radius: 800%;
-            margin: 0 5px;
-            text-align: center;
-            padding-top: 15px;
-            background: $lightG;
+            width: 50px;
+            border-radius: 50%;
+            font-size: 15px;
+            background-color: $darkBlue;
+            border: none;
+            color: $mediumG;
+
+            &:hover {
+                background-color: $lightG;
+                color: $white;
+                cursor: pointer;
+            }
+
+            &:active {
+                background-color: $orange;
+                color: $white;
+            }
         }
-
-        // input[type="radio"] {
-        //     display: none;
-        // }
-
-
     }
 
     #sectionThree {
         color: $white;
         text-align: center;
 
-        a {
+        #submit {
             background: $orange;
             text-decoration: none;
             color: $white;
             letter-spacing: 3px;
             padding: 10px 40%;
             border-radius: 20px;
+            border: none;
+            cursor: pointer;
 
             &:hover {
                 background: $white;
@@ -107,5 +109,4 @@ main {
 
 
     }
-
 }
